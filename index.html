@@ -52,13 +52,13 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="500">
     <!-- TOP NAV BAR -->
     <nav class="navbar navbar-expand-xl fixed-top navbar-dark  pb-4 pt-4">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav-bar" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto " type="button" data-toggle="collapse" data-target="#main-nav-bar"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-md-center pb-1 pt-1" id="main-nav-bar">
             <div class="navbar-nav ml-auto nav-fill mx-auto">
-                <a class="navitem-tj nav-item nav-link" href="#aboutme">
+                <a class="navitem-tj nav-item nav-link" href="#about">
                     <i class="fas fa-user-tie"></i>
                     <br>
                     About
@@ -66,8 +66,8 @@
                 <a class="navitem-tj nav-item nav-link" href="#work"> <i class="fas fa-briefcase "></i><br>
                     Work</a>
                 <a class="navitem-tj nav-item nav-link name hide" href="#"> Tamim Jabban </a>
-                <a class="navitem-tj nav-item nav-link" href="#hobbies"> <i class="fas fa-dice"></i><br>
-                    Hobbies</a>
+                <a class="navitem-tj nav-item nav-link" href="#travels"> <i class="fas fa-plane"></i><br>
+                    Travels</a>
                 <a class="navitem-tj nav-item nav-link" href="#contact"> <i class="fas fa-comments"></i><br>
                     Contact</a>
             </div>
@@ -77,7 +77,8 @@
     <header class="cover-photo mx-auto d-flex">
         <div class="align-self-center mx-auto">
             <h1 class="w-100 ">tamim jabban</h1>
-            <hr class="style2">
+            <!-- <hr class="style2"> -->
+            <i class="far fa-star"></i>
             <h2 class="w-100">Computer Scientist</h2>
         </div>
     </header>
@@ -86,24 +87,33 @@
 
 
     <!-- ABOUT ME-->
-    <section class="container" id="aboutme">
+    <section class="container" id="about">
 
         <div class="text-center">
             <img class="myphoto" src="img/tn.JPG" alt="">
         </div>
 
-        <h1 class="intro text-center">
+        <h2 class="intro text-center">
             Hello, I'm Tamim.
-        </h1>
+        </h2>
 
         <hr class="mb-5 mt-5 short">
 
         <div class="description" data-aos="fade-up" data-aos-delay="150">
-            <h2>
-                A little about myself:
-            </h2>
+
             <div class="row">
-                <div class="col-3  text-center">
+                <div class="col-3">
+                </div>
+                <div class="col-9 align-self-center">
+                    <h2 class="text-left">
+                        A little about myself:
+                    </h2>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-3 text-right">
                     <i class="fas fa-home"></i>
                 </div>
                 <div class="col-9 align-self-center">
@@ -111,7 +121,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3  text-center">
+                <div class="col-3  text-right">
                     <i class="fas fa-book-open"></i>
                 </div>
                 <div class="col-9 align-self-center">
@@ -120,7 +130,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3  text-center">
+                <div class="col-3  text-right">
                     <i class="fas fa-graduation-cap"></i>
                 </div>
                 <div class="col-9 align-self-center">
@@ -129,7 +139,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-3  text-center">
+                <div class="col-3  text-right">
                     <i class="fas fa-building"></i>
                 </div>
                 <div class="col-9 align-self-center">
@@ -154,20 +164,115 @@
 
 
             </div> -->
-
-
     </section>
     <!-- ABOUT ME-->
 
-    <hr class="mb-5 mt-5">
+    <!-- <hr class="mb-5 mt-5"> -->
 
-    <section id="work">
+    <section class="container-fluid" id="work">
 
-            <div style="height: 500px;"></div>
+
+        <h1 class="text-center">
+            <hr class="heading-line"> Work
+            <hr class="heading-line">
+        </h1>
+        <div class="container work" data-aos="fade-up" data-aos-delay="150">
+            <div class="row">
+                <div class="col-md-3 align-self-center text-md-right text-center">
+                    <img class="job" src="img/cmu.jpg" alt="">
+                </div>
+                <div class="col-md-9 align-self-center">
+                    <h3>CS Teaching Assistant, Carnegie Mellon University</h3>
+                    <h5> Aug. 2015 - Present </h5>
+                    <ul>
+                        <li>
+                            Assisting Professors in teaching freshman and senior level courses including Distributed
+                            Systems,
+                            Database Applications, Principles of Imperative Computation, and Entrepreneurship for
+                            Computer
+                            Science.
+                        </li>
+                        <li>
+                            Responsible for delivering labs & recitations, tutoring students, as well as providing &
+                            correcting assignments & projects.
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 align-self-center text-md-right text-center">
+                    <img class="job" src="img/rimads.png" alt="">
+                </div>
+                <div class="col-md-9 align-self-center">
+                    <h3>Web Developer, Rimads</h3>
+                    <h5> Jul. 2018 - Aug. 2018 </h5>
+
+                    <ul>
+                        <li>
+                            Created multiple websites that displays analytics via charts and other tools.
+                        </li>
+                        <li>
+                            Created the company website from scratch (www.rimads.co).
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 align-self-center text-md-right text-center">
+                    <img class="job" src="img/host.png" alt="">
+                </div>
+                <div class="col-md-9 align-self-center">
+                    <h3>Lead Android Developer, Host.qa</h3>
+                    <h5> May 2015 - Dec. 2015 </h5>
+                    <ul>
+                        <li>
+                            Led the Android development team in building Android applications for various clients </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 align-self-center text-center">
+                    <form method="get" action="files/Tamim_Jabban_CV.pdf">
+                        <button type="submit" class="btn btn-outline-secondary pdf">Full Résumé <i class="far fa-file-pdf"></i></button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
 
     </section>
 
+    <section class="container-fluid" id="travels">
 
+
+        <h1 class="text-center">
+            <hr class="heading-line"> Travels
+            <hr class="heading-line">
+        </h1>
+        <!-- <div style="height: 500px;"></div> -->
+        <div style="height: 500px;"></div>
+
+
+    </section>
+
+    <section class="container-fluid" id="contact">
+
+
+        <h1 class="text-center">
+            <hr class="heading-line"> Contact
+            <hr class="heading-line">
+        </h1>
+        <!-- <div style="height: 500px;"></div> -->
+        <div style="height: 500px;"></div>
+
+
+    </section>
 
 
 </body>

@@ -28,6 +28,16 @@ body {
     text-transform: uppercase;
 }
 
+section {
+    padding: 3em;
+}
+
+section:nth-of-type(even) {
+    color: rgb(50, 50, 50);
+    /* color: #1F9F19 ; */
+    background: #fafafa;
+}
+
 .name {
     display: block;
     opacity: 1;
@@ -122,6 +132,13 @@ body {
     font-size: 3em;
 }
 
+.cover-photo i {
+    font-size: 1em;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
 .hr-custom {
     display: inline-block;
     /* border: 0;
@@ -130,6 +147,7 @@ body {
     border-bottom: 3px solid rgba(255, 255, 255, 0.3); */
     width: 100px;
 }
+
 /* 
 hr.style2 {
     border-top: 3px double white;
@@ -146,11 +164,11 @@ hr.style2 {
 .my-info li span {
     padding-left: 2em;
 } */
-
 .description i {
     font-size: 2em;
     color: teal;
     width: 10px;
+    padding-right: 1em;
     text-align: center;
 }
 
@@ -169,9 +187,75 @@ hr.style2 {
 .description h2 {
     font-weight: 400;
     font-size: 2em;
-    padding-bottom: 1.5em;
+    /* padding-left: 2em; */
+    padding-bottom: 0.25em;
 }
 
 .short {
     width: 300px;
 }
+
+section h1 {
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.heading-line {
+    display: inline-block;
+    width: 75px;
+    height: 2px;
+    border: none;
+    color: #cccccc;
+    background-color: #cccccc;
+}
+
+.job {
+    width: 150px;
+    /* margin: 1em; */
+    border: 0.00001em solid grey;
+    /* border-radius: 50%; */
+}
+
+.work h5 {
+    color: #555555;
+    font-style: italic;
+}
+
+.work .row {
+    padding-top: 2em;
+}
+
+.pdf {
+    font-size: 1.25em;
+    border-radius: 0;
+    padding: 1em 3em;
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+.pdf i {
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+
+.work ul {
+    list-style-type: circle;
+    line-height: 2;
+    margin-left: 0;
+}
+
+/* .work ul {
+    list-style: none;
+}
+
+.work ul li:before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 4px);
+    left: -20px;
+    transform: translateY(-50%) rotate(-45deg);
+} */
