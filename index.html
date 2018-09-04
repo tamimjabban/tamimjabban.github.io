@@ -13,7 +13,7 @@
     <meta name="author" content="Tamim Jabban">
 
     <!-- Page Title -->
-    <title>Home | Tamim Jabban</title>
+    <title>Tamim Jabban</title>
 
     <!--Tab Logo-->
     <!-- <link rel="icon" href="img/favicon.png"> -->
@@ -22,6 +22,12 @@
     <!-- Font Family -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="lib/fa/css/all.min.css">
@@ -45,154 +51,123 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="10">
     <!-- TOP NAV BAR -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top ">
-        <a class="navbar-brand hidden" href="index.html">
-            <!-- <img class="logo" src="img/logo.png"> -->
-            <div class="brand-logo">rimads</div>
-        </a>
+    <nav class="navbar navbar-expand-xl fixed-top navbar-dark  pb-4 pt-4">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav-bar" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-md-center pb-1 pt-1" id="main-nav-bar">
-            <div class="navbar-nav nav-fill">
-                <a class="navitem-rimads nav-item nav-link home-tag active" href="#aboutme">About Me</a>
-                <a class="navitem-rimads nav-item nav-link" href="#work">Work</a>
-                <a class="navitem-rimads nav-item nav-link" href="#hobbies">Hobbies</a>
-                <a class="navitem-rimads nav-item nav-link" href="#contact">Contact Me</a>
+            <div class="navbar-nav ml-auto nav-fill mx-auto">
+                <a class="navitem-tj nav-item nav-link active" href="#aboutme">
+                    <i class="fas fa-user-tie"></i>
+                    <br>
+                    About
+                </a>
+                <a class="navitem-tj nav-item nav-link" href="#work"> <i class="fas fa-briefcase "></i><br>
+                    Work</a>
+                <a class="navitem-tj nav-item nav-link name hide" href="#"> Tamim Jabban </a>
+                <a class="navitem-tj nav-item nav-link" href="#hobbies"> <i class="fas fa-dice"></i><br>
+                    Hobbies</a>
+                <a class="navitem-tj nav-item nav-link" href="#contact"> <i class="fas fa-comments"></i><br>
+                    Contact</a>
             </div>
         </div>
     </nav>
 
-
-    <!-- ABOUT ME-->
-    <section id="aboutme">
-        <header>
-            
-        </header>
-        
-    </section>
-    <!-- ABOUT ME-->
-
-    <!-- Work-->
-    <section id="work">
-      
-    </section>
-    <!-- Work-->
-
-
-
-
-
-    <!-- KNOW MORE -->
-    <div hidden class="pre-footer">
-        <h2> Would you like to know more? Come visit us! </h2>
-    </div>
-    <!-- KNOW MORE -->
-
-
-    <!-- Footer -->
-    <footer hidden>
-        <!-- To Top Anchor -->
-        <div class="text-center to-top">
-            <a href="#" title="To top">
-                <i class="fas fa-chevron-up text-center"></i>
-            </a>
+    <header class="cover-photo mx-auto d-flex">
+        <div class="align-self-center mx-auto">
+            <h1 class="w-100 ">tamim jabban</h1>
+            <hr class="style2">
+            <h2 class="w-100">Computer Scientist</h2>
         </div>
-        <!-- To Top Anchor -->
+    </header>
 
-        <!-- Footer Links -->
-        <div class="container text-center text-md-left mb-5 mt-3">
-            <!-- Grid row -->
+
+
+
+    <!-- ABOUT ME-->
+    <section class="container" id="aboutme">
+
+        <div class="text-center">
+            <img class="myphoto" src="img/tn.JPG" alt="">
+        </div>
+
+        <h1 class="intro text-center">
+            Hello, I'm Tamim.
+        </h1>
+
+        <hr class="mb-5 mt-5 short">
+
+        <div class="description" data-aos="fade-up" data-aos-delay="150">
+            <h2>
+                A little about myself:
+            </h2>
             <div class="row">
-                <!-- Grid column -->
-                <div class="col-md-4 mx-auto text-center">
-                    <img src="img/rimadspurple.png" class="footer-logo">
+                <div class="col-3  text-center">
+                    <i class="fas fa-home"></i>
                 </div>
-                <!-- Grid column -->
-                <hr class="clearfix w-100 d-md-none">
-                <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
-                    <!-- Links -->
-                    <h5 class="footer_header mt-2 mb-4">about</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="about.html#mission">Mission</a>
-                        </li>
-                        <li>
-                            <a href="about.html#vision">Vision</a>
-                        </li>
-                        <li>
-                            <a href="about.html#values">Values</a>
-                        </li>
-                    </ul>
+                <div class="col-9 align-self-center">
+                    I was raised in Damascus, Syria.
                 </div>
-                <!-- Grid column -->
-                <hr class="clearfix w-100 d-md-none">
-                <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
-                    <!-- Links -->
-                    <h5 class="footer_header mt-2 mb-4">projects</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="projects.html#phoenix">Phoenix</a>
-                        </li>
-                        <li>
-                            <a href="projects.html#stork">Stork</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Grid column -->
-                <hr class="clearfix w-100 d-md-none">
-                <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
-                    <!-- Links -->
-                    <h5 class="footer_header mt-2 mb-4">products</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="products.html#phoenix">Phoenix App</a>
-                        </li>
-                        <li>
-                            <a href="products.html#stork">Stork App</a>
-                        </li>
-                        <li>
-                            <a href="products.html#hospital">Hospital platform</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Grid column -->
-                <hr class="clearfix w-100 d-md-none">
-                <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
-                    <!-- Links -->
-                    <h5 class="footer_header mt-2 mb-4">Careers</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="careers.html#benefits">Benefits</a>
-                        </li>
-                        <li>
-                            <a href="careers.html#openings">Openings</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Grid column -->
-                <hr class="clearfix w-100 d-md-none">
             </div>
-            <!-- Grid row -->
+            <div class="row">
+                <div class="col-3  text-center">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="col-9 align-self-center">
+                    I moved to Qatar in 2011 to study at Carnegie
+                    Mellon University (CMU).
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3  text-center">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="col-9 align-self-center">
+                    In 2015, I was awarded with a BSc degree
+                    in Computer Science.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3  text-center">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="col-9 align-self-center">
+                    Since graduation, I've been working as a CS
+                    Teaching Assistant at CMU.
+                </div>
+            </div>
         </div>
-        <!-- Footer Links -->
+        <!-- 
+                <p>
+                    Things I like to do:
+                    <ul>
+                        <li>Coding.</li>
+                        <li>Watching football.</li>
+                        <li>Traveling.</li>
+                        <li>Hiking.</li>
+                        <li>Photography (sort of).</li>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">
-            Copyright &copy; Rimads 2018. All Rights Reserved.
-            <hr> Made with
-            <i class="fas fa-magic minifooter" title="magic!"></i> 
-            at Rimads, Qatar
-        </div>
-        <!-- Copyright -->
+                    </ul>
+                </p>
 
-    </footer>
-    <!-- Footer -->
+
+
+            </div> -->
+
+
+    </section>
+    <!-- ABOUT ME-->
+
+    <hr class="mb-5 mt-5">
+
+    <section id="work">
+
+            <div style="height: 500px;"></div>
+
+    </section>
+
+
 
 
 </body>

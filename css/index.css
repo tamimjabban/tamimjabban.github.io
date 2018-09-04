@@ -1,0 +1,177 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* padding-top: 1px; */
+    /* font-family: 'Source Code Pro', monospace; */
+    scroll-behavior: smooth;
+}
+
+.bg-custom {
+    background-color: teal;
+    transition: background-color 200ms linear;
+}
+
+.hide {
+    display: none !important;
+    opacity: 0;
+    height: 0 !important;
+}
+
+.navbar {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+}
+
+.name {
+    display: block;
+    opacity: 1;
+    transition-delay: 4s;
+    transition: opacity 2s linear;
+    margin-left: 6em;
+    margin-right: 6em;
+    font-size: 3em;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Amatic SC', cursive;
+    text-transform: lowercase;
+    vertical-align: middle;
+}
+
+.navitem-tj .fas {
+    font-size: 2em;
+    padding: 0.25em;
+}
+
+.navitem-tj {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-weight: 700;
+}
+
+.navitem-tj hr {
+    display: inline-block;
+    width: 40px;
+    /* height: 25px; */
+    height: 1px;
+    border: none;
+    color: #dddddd;
+    background-color: #dddddd;
+}
+
+.home {
+    min-height: 80vh;
+    /* border: 0.0001em solid; */
+    margin: 3em 20%;
+    padding: 3em;
+    /* box-shadow: 2px 2px 2px 2px #888888; */
+    background: #fafafa;
+}
+
+.myphoto {
+    border-radius: 70%;
+    /* Rounded border */
+    margin: 4em;
+    /* Some padding */
+    width: 300px;
+    /* Set a small width */
+    height: 300px;
+    /* Set a small width */
+}
+
+.description p {
+    font-size: 1.25em;
+    line-height: 2;
+}
+
+.description li {
+    line-height: 2.25;
+}
+
+.intro {
+    font-size: 3em !important;
+}
+
+.cover-photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-image: url("../img/bg2.jpg");
+    min-height: 70vh;
+    text-align: center;
+    /* font-family: 'Pacifico', cursive; */
+}
+
+.cover-photo h1 {
+    font-family: 'Amatic SC', cursive;
+    text-transform: lowercase;
+    color: white;
+    font-size: 10em;
+    /* padding-bottom: 1em; */
+}
+
+.cover-photo h2 {
+    font-family: 'Amatic SC', cursive;
+    text-transform: lowercase;
+    color: white;
+    font-size: 3em;
+}
+
+.hr-custom {
+    display: inline-block;
+    /* border: 0;
+    height: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3); */
+    width: 100px;
+}
+/* 
+hr.style2 {
+    border-top: 3px double white;
+    width: 100px;
+}
+
+.my-info {
+    list-style-type: none;
+}
+.my-info li {
+    padding: 1em;
+}
+
+.my-info li span {
+    padding-left: 2em;
+} */
+
+.description i {
+    font-size: 2em;
+    color: teal;
+    width: 10px;
+    text-align: center;
+}
+
+.description {
+    padding: 2em;
+}
+
+.description .row {
+    padding: 0.5em;
+}
+
+.description .col-9 {
+    font-size: 1em;
+}
+
+.description h2 {
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: 1.5em;
+}
+
+.short {
+    width: 300px;
+}

@@ -1,16 +1,18 @@
-$(document).ready(function () {
-    $(window).scroll(function () {
+$(document).ready(function(){
+    $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        // if (scroll < 100) {
-        // }
-        if (scroll > 400) {
-            $(".navbar").addClass('scrolled')
-            $(".navbar-brand").css("visibility", "visible")
-        } else {
-            $(".home-tag").first().addClass("active")
-            $(".navbar").removeClass('scrolled')
-            $(".navbar-brand").css("visibility", "hidden")
+        if (scroll > 200) {
+            $(".name").removeClass("hide");
+            $(".navbar").addClass("bg-custom");
+
+        //   $(".name").css("display" , "inline");
+        }
+  
+        else{
+            
+            $(".name").addClass("hide");
+            $(".navbar").removeClass("bg-custom");
 
         }
-    });
-})
+    })
+  })
