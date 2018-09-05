@@ -52,6 +52,13 @@ section:nth-of-type(even) {
     vertical-align: middle;
 }
 
+.name-footer {
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    /* padding: 0 0.5em; */
+    font-size: 1.5em;
+}
+
 .navitem-tj .fas {
     font-size: 2em;
     padding: 0.25em;
@@ -191,6 +198,21 @@ hr.style2 {
     padding-bottom: 0.25em;
 }
 
+.contact-info i {
+    font-size: 5em;
+    color: teal;
+    padding: 1em;
+}
+.contact-info p {
+    /* font-size: 1.25em; */
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+.contact-info {
+    padding-bottom: 3em;
+}
 .short {
     width: 300px;
 }
@@ -244,18 +266,9 @@ section h1 {
     margin-left: 0;
 }
 
-/* .work ul {
-    list-style: none;
+footer {
+	padding: 2em 1em 1em 2em;
+    background-color: rgb(0, 60, 60);
+    color: white;
+    font-size: 1em;
 }
-
-.work ul li:before {
-    content: '';
-    position: absolute;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    width: 10px;
-    height: 10px;
-    top: calc(50% - 4px);
-    left: -20px;
-    transform: translateY(-50%) rotate(-45deg);
-} */
