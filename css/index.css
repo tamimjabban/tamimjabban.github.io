@@ -49,7 +49,6 @@ section:nth-of-type(even) {
     /* font-family: 'Pacifico', cursive; */
     font-family: 'Amatic SC', cursive;
     text-transform: lowercase;
-    vertical-align: middle;
 }
 
 .name-footer {
