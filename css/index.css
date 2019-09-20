@@ -118,7 +118,7 @@ section:nth-of-type(even) {
     background-size: cover;
     background-color: transparent;
     background-position: 50% 50%;
-    background-image: url("../img/bg2.jpg");
+    background-image: url("../img/bgCompressed.jpg");
     min-height: 70vh;
     text-align: center;
     /* font-family: 'Pacifico', cursive; */
